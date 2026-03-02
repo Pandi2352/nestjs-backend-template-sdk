@@ -1,5 +1,5 @@
 {
-  "name": "@mvp.bose23/project-setup-template",
+  "name": "@Pandi2352/nestjs-backend-template-sdk",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -23,7 +23,7 @@
   "author": "",
   "license": "ISC",
   "publishConfig": {
-    "@mvp.bose23:registry": "https://gitlab.com/api/v4/projects/79899322/packages/npm/"
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "@fastify/multipart": "9.0.3",
