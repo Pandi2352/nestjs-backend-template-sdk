@@ -1,5 +1,8 @@
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "fs";
-import { join as joinPath, resolve as resolvePath } from "path";
+import { join, resolve as resolvePath } from "path";
+
+// Normalize to forward slashes for TypeScript import paths
+const joinPath = (...args: string[]) => join(...args).replace(/\\/g, '/');
 class GenerateCollectionRef {
   run() {
     const collection_name_delimiter = "export const CollectionName =";
